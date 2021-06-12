@@ -1,0 +1,5 @@
+name: ClickerFix
+author: BrightLight
+main: ru.brightlight.clickerfix.ClickerFix
+version: 1.0
+softdepend: [ProtocolLib]
