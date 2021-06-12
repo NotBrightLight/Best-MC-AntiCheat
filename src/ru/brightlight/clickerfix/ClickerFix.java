@@ -29,7 +29,7 @@ public class ClickerFix extends JavaPlugin {
                 if (players.containsKey(name)) {
                     if (players.get(name) > maxAmountClicksInSec) {
                         event.setCancelled(true);
-                        event.getPlayer().sendMessage("§cКликай медленнее.1");
+                        event.getPlayer().sendMessage("§cКликай медленнее.");
                     } else {
                         players.put(name, players.get(name) + 1);
                     }
